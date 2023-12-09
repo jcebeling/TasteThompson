@@ -2,8 +2,113 @@
     {
         "name": "Lasagna",
         "prep_time": 60,
-        "ingredients": {
-            "noodles": 24
-        }
+        "ingredients": [
+    {
+        "name": "Sweet Italian Sausage",
+        "unit": "pound",
+        "quantity": 1
+    },
+    {
+        "name": "Lean Ground Beef",
+        "unit": "pound",
+        "quantity": 0.75
+    },
+    {
+        "name": "Onion",
+        "unit": "cup",
+        "quantity": 0.5
+    },
+    {
+        "name": "Garlic",
+        "unit": "cloves",
+        "quantity": 2
+    },
+    {
+        "name": "Crushed Tomatoes",
+        "unit": "can",
+        "quantity": 1,
+        "container_size": "28 ounce"
+    },
+    {
+        "name": "Tomato Sauce",
+        "unit": "can",
+        "quantity": 2,
+        "container_size": "6.5 ounce"
+    },
+    {
+        "name": "Tomato Paste",
+        "unit": "can",
+        "quantity": 2,
+        "container_size": "6 ounce"
+    },
+    {
+        "name": "Water",
+        "unit": "cup",
+        "quantity": 0.5
+    },
+    {
+        "name": "White Sugar",
+        "unit": "tablespoon",
+        "quantity": 2
+    },
+    {
+        "name": "Fresh Parsley",
+        "unit": "tablespoon",
+        "quantity": 4,
+        "container_size": "chopped"
+    },
+    {
+        "name": "Dried Basil Leaves",
+        "unit": "teaspoon",
+        "quantity": 1.5
+    },
+    {
+        "name": "Salt",
+        "unit": "teaspoon",
+        "quantity": 1.5,
+        "divided": true
+    },
+    {
+        "name": "Italian Seasoning",
+        "unit": "teaspoon",
+        "quantity": 1
+    },
+    {
+        "name": "Fennel Seeds",
+        "unit": "teaspoon",
+        "quantity": 0.5
+    },
+    {
+        "name": "Black Pepper",
+        "unit": "teaspoon",
+        "quantity": 0.25
+    },
+    {
+        "name": "Lasagna Noodles",
+        "unit": "count",
+        "quantity": 12
+    },
+    {
+        "name": "Ricotta Cheese",
+        "unit": "ounce",
+        "quantity": 16
+    },
+    {
+        "name": "Egg",
+        "unit": "count",
+        "quantity": 1
+    },
+    {
+        "name": "Mozzarella Cheese",
+        "unit": "pound",
+        "quantity": 0.75
+    },
+    {
+        "name": "Parmesan Cheese",
+        "unit": "cup",
+        "quantity": 0.75
+    }
+]
+
     }
 ]

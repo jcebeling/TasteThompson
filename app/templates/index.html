@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <form method="post" action="/">
-        <button type="submit">Generate Recipe Recommendation</button>
-    </form>
-    {% if recipe %}
-        <div>
-            <h2>Recommended Recipe:</h2>
-            <p>{{ recipe }}</p>
+    <div class="content">
+        <form method="post" action="/">
+            <button type="submit">Generate Recipe Recommendation</button>
+        </form>
+
+        {% if recipe %}
+            <div class="recipe-card">
+                <h1>{{ recipe.name }}</h1>
+                <p><strong>Prep Time:</strong> {{ recipe.prep_time }} minutes</p>
+                <h2>Ingredients</h2>
+                <ul>
+                    {% for ingredient in recipe.ingredients %}
+                    <li>{{ ingredient.quantity }} {{ ingredient.unit }} {{ ingredient.name }}</li>
+                    {% endfor %}
+                </ul>
+                <h2>Instructions</h2>
+                <ol>
+                    {% for step in recipe.instructions %}
+                    <li>{{ step }}</li>
+                    {% endfor %}
+                </ol>
+                <div class="tags">
+                    {% for tag in recipe.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <div class="score">Score: {{ recipe.score }}/10</div>
+            </div>
+        {% endif %}
+    </div>
+    <form method="post" action="/rate_recipe" id="ratingForm">
+        <h2>Rate this Recipe</h2>
+        <div id="scoreFields">
+            <input type="number" name="scores" placeholder="Score (1-10)" required>
         </div>
-    {% endif %}
+        <button type="button" onclick="addScoreField()">Add Another Score</button>
+        <button type="submit">Submit Ratings</button>
+    </form>
 </body>
 </html>
