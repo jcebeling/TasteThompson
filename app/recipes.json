@@ -107,8 +107,1189 @@
         "name": "Parmesan Cheese",
         "unit": "cup",
         "quantity": 0.75
-    }
-]
+    },
+    {
+        "name": "Pizza",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "flour",
+                "quantity": 2,
+                "units": "cups"
+            },
+            {
+                "name": "warm water",
+                "quantity": "1",
+                "units": "cup"
+            },
+            {
+                "name": "yeast",
+                "quantity": 2,
+                "units": "teaspoon"
+            },
+            {
+                "name": "salt",
+                "quantity": 1,
+                "units": "teaspoon"
+            },
+            {
+                "name": "tomato sauce",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "mozzarella cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "pepperoni",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "vegetables (pepper, mushrooms, onion, etc.)",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Mix flour, water, yeast, and salt",
+            "Knead dough",
+            "Let rise while preparing sauce and toppings",
+            "Roll out dough",
+            "Top with sauce, cheese, and pepperoni",
+            "Bake at 350 for 20 minutes"
+        ],
+        "score": 9,
+        "tags": [
+            "italian",
+            "pizza",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Rita"
+    },
+    {
+        "name": "Cream Cheese Chicken",
+        "prep_time": 10,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 4,
+                "units": "breasts"
+            },
+            {
+                "name": "cream cheese",
+                "quantity": 8,
+                "units": "oz"
+            },
+            {
+                "name": "italian dressing mix",
+                "quantity": 1,
+                "units": "packet"
+            }
+        ],
+        "instructions": [
+            "Put chicken in crockpot on low for 6-8 hours (no longer!), sprinkle with dressing mix, add a few cups of water",
+            "Remove chicken and stir in cream cheese",
+            "Serve over rice or mashed potatoes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "crockpot",
+            "dinner",
+            "rice",
+            "mashed potatoes"
+        ],
+        "notes": "",
+        "source": "Kami"
+    },
+    {
+        "name": "Chicken Tortilla Soup",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "chicken broth",
+                "quantity": 4,
+                "units": "cups"
+            },
+            {
+                "name": "tomato sauce",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "diced tomatoes",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "black beans",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "corn",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "taco seasoning",
+                "quantity": 1,
+                "units": "packet"
+            },
+            {
+                "name": "ranch dressing mix",
+                "quantity": 1,
+                "units": "packet"
+            },
+            {
+                "name": "tortilla chips",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "sour cream",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Boil chicken in broth until cooked through",
+            "Remove chicken and shred",
+            "Add chicken and remaining ingredients to broth",
+            "Simmer for 30 minutes",
+            "Serve with tortilla chips, cheese, and sour cream"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "soup",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Chicken Enchiladas",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "cream cheese",
+                "quantity": 8,
+                "units": "oz"
+            },
+            {
+                "name": "salsa",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "tortillas",
+                "quantity": 8,
+                "units": "tortillas"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Boil chicken until cooked through",
+            "Shred chicken and mix with cream cheese and salsa",
+            "Fill tortillas with chicken mixture and roll up",
+            "Place in baking dish and top with shredded cheese",
+            "Bake at 350 for 20 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Chicken Pot Pie",
+        "prep_time": 60,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "cream of chicken soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "frozen mixed vegetables",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "pie crust",
+                "quantity": 2,
+                "units": "crusts"
+            }
+        ],
+        "instructions": [
+            "Boil chicken until cooked through",
+            "Shred chicken and mix with soup and vegetables",
+            "Place one crust in bottom of pie pan",
+            "Pour chicken mixture into pie pan",
+            "Place second crust on top and seal edges",
+            "Cut slits in top crust",
+            "Bake at 350 for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Fried Rice",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "rice",
+                "quantity": 2,
+                "units": "cups"
+            },
+            {
+                "name": "eggs",
+                "quantity": 2,
+                "units": "eggs"
+            },
+            {
+                "name": "soy sauce",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "frozen mixed vegetables",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            }
+        ],
+        "instructions": [
+            "Boil chicken until cooked through",
+            "Shred chicken",
+            "Cook rice",
+            "Scramble eggs",
+            "Mix all ingredients together"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "rice",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Chicken Noodle Soup",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "chicken broth",
+                "quantity": 4,
+                "units": "cups"
+            },
+            {
+                "name": "egg noodles",
+                "quantity": 2,
+                "units": "cups"
+            },
+            {
+                "name": "carrots",
+                "quantity": 2,
+                "units": "carrots"
+            },
+            {
+                "name": "celery",
+                "quantity": 2,
+                "units": "stalks"
+            },
+            {
+                "name": "onion",
+                "quantity": 1,
+                "units": "onion"
+            }
+        ],
+        "instructions": [
+            "Boil chicken until cooked through",
+            "Shred chicken",
+            "Chop vegetables",
+            "Cook noodles",
+            "Add all ingredients to broth and simmer for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "soup",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Chicken and Dumplings",
+        "prep_time": 60,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "chicken broth",
+                "quantity": 4,
+                "units": "cups"
+            },
+            {
+                "name": "cream of chicken soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "biscuits",
+                "quantity": 1,
+                "units": "can"
+            }
+        ],
+        "instructions": [
+            "Boil chicken until cooked through",
+            "Shred chicken",
+            "Add chicken, broth, and soup to pot and bring to a boil",
+            "Cut biscuits into quarters and add to pot",
+            "Simmer for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "soup"],
+        "notes": "",
+        "source": "Copilot"
 
+    },
+    {
+        "name": "Salsa Chicken",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 4,
+                "units": "breasts"
+            },
+            {
+                "name": "salsa",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Place chicken in crockpot on low for 6-8 hours with salsa, salt and pepper",
+            "Serve in a burrito with rice and beans."
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "crockpot",
+            "dinner",
+            "burrito",
+            "rice",
+            "beans",
+            "mexican"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Beef Stroganoff",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "beef stew meat",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {
+                "name": "cream of mushroom soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "sour cream",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "egg noodles",
+                "quantity": 1,
+                "units": "bag"
+            }
+        ],
+        "instructions": [
+            "Brown beef in skillet",
+            "Add soup and simmer for 20 minutes",
+            "Cook noodles",
+            "Stir in sour cream",
+            "Serve over noodles (or rice)"
+        ],
+        "score": 8,
+        "tags": [
+            "beef",
+            "dinner",
+            "noodles",
+            "pasta",
+            "rice"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Fajitas",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "bell peppers",
+                "quantity": 2,
+                "units": "peppers"
+            },
+            {
+                "name": "onion",
+                "quantity": 1,
+                "units": "onion"
+            },
+            {
+                "name": "tortillas",
+                "quantity": 8,
+                "units": "tortillas"
+            },
+            {
+                "name": "salsa",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "sour cream",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Slice chicken, peppers, and onion",
+            "Cook in skillet until chicken is cooked through",
+            "Serve with tortillas, salsa, cheese, and sour cream"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "mexican"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Chicken Parmesan",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken huggetss",
+                "quantity": 4,
+                "units": "breasts"
+            },
+            {
+                "name": "spaghetti sauce",
+                "quantity": 1,
+                "units": "jar"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "noodles",
+                "quantity": 1,
+                "units": "bag"
+            }
+        ],
+        "instructions": [
+            "Cook chicken nuggets and noodles.",
+            "Mix sauce and noodles",
+            "Serve chicken and sauce over noodles and top with cheese"
+        ]
+    },
+    {
+        "name": "Chicken Nugget Sandwiches",
+        "prep_time": 10,
+        "ingredients": [
+            {
+                "name": "chicken nuggets",
+                "quantity": 8,
+                "units": "nuggets"
+            },
+            {
+                "name": "hamburger buns",
+                "quantity": 4,
+                "units": "buns"
+            },
+            {
+                "name": "lettuce",
+                "quantity": 4,
+                "units": "leaves"
+            },
+            {
+                "name": "tomato",
+                "quantity": 1,
+                "units": "tomato"
+            },
+            {
+                "name": "mayonnaise",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Cook chicken nuggets",
+            "Serve on buns with lettuce, tomato, and mayonnaise"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "sandwich"
+        ],
+        "notes": "",
+        "source": "Amber"
+    },
+    {
+        "name": "Breakfast Hash",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "hash browns",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "eggs",
+                "quantity": 6,
+                "units": "eggs"
+            },
+            {
+                "name": "bacon",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "salsa",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "peppers",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Cook bacon and hash browns",
+            "Scramble eggs",
+            "Mix all ingredients together"
+        ],
+        "score": 8,
+        "tags": [
+            "breakfast",
+            "bacon",
+            "eggs",
+            "potatoes"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Chicken Alfredo",
+        "prep_time": 20,
+        "ingredients": [
+            {
+                "name": "chicken breasts (or nuggs)",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "alfredo sauce",
+                "quantity": 1,
+                "units": "jar"
+            },
+            {
+                "name": "noodles",
+                "quantity": 1,
+                "units": "bag"
+            }
+        ],
+        "instructions": [
+            "Cook chicken and noodles",
+            "Mix together and serve"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "pasta"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Chicken and Rice",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "cream of chicken soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "rice",
+                "quantity": 2,
+                "units": "cups"
+            }
+        ],
+        "instructions": [
+            "Cook chicken and rice",
+            "Mix together with soup",
+            "Serve"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "rice"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Chicken and Stuffing",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "cream of chicken soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "stuffing",
+                "quantity": 1,
+                "units": "bag"
+            }
+        ],
+        "instructions": [
+            "Cook chicken",
+            "Mix together with soup",
+            "Prepare stuffing",
+            "Serve chicken and soup over stuffing"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "John"
+    },
+    {
+        "name": "Chicken and Dumplings",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 2,
+                "units": "breasts"
+            },
+            {
+                "name": "cream of chicken soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "biscuits",
+                "quantity": 1,
+                "units": "can"
+            }
+        ],
+        "instructions": [
+            "Cook chicken",
+            "Mix together with soup",
+            "Cut biscuits into quarters and add to pot",
+            "Simmer for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner"
+        ],
+        "notes": "",
+        "source": "Copilot"
+    },
+    {
+        "name": "Burgers",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {"name":  "Worchestershire sauce", "quantity": 1, "units": "tbsp"},
+            {"name":  "salt", "quantity": 1, "units": "tsp"},
+            {"name":  "pepper", "quantity": 1, "units": "tsp"},
+            {"name":  "garlic powder", "quantity": 1, "units": "tsp"},
+            {"name":  "egg", "quantity": 1, "units": "egg"},
+            {
+                "name": "hamburger buns",
+                "quantity": 4,
+                "units": "buns"
+            },
+            {
+                "name": "lettuce",
+                "quantity": 4,
+                "units": "leaves"
+            },
+            {
+                "name": "tomato",
+                "quantity": 1,
+                "units": "tomato"
+            },
+            {
+                "name": "mayonnaise",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Mix beef, Worchestershire sauce, salt, pepper, garlic powder, and egg",
+            "Form into patties",
+            "Cook patties",
+            "Serve on buns with lettuce, tomato, and mayonnaise"
+        ],
+        "score": 8,
+        "tags": [
+            "beef",
+            "dinner",
+            "sandwich"
+        ],
+        "notes": "",
+        "source": "Megan"
+    },
+    {
+        "name": "Shepherd's Pie",
+        "prep_time": 60,
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {
+                "name": "tomato soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "frozen mixed vegetables",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "mashed potatoes",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"}
+        ],
+        "instructions": [
+            "Brown beef",
+            "Mix beef, soup, and vegetables",
+            "Pour into baking dish",
+            "Top with mashed potatoes",
+            "Bake at 350 for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "beef",
+            "dinner",
+            "mashed potatoes"
+        ],
+        "notes": ""
+    },
+    {
+        "name": "Tuna Casserole",
+        "prep_time": 60,
+        "ingredients": [
+            {
+                "name": "tuna",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "cream of mushroom soup",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "noodles",
+                "quantity": 1,
+                "units": "bag"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "bread crumbs",
+                "quantity": 1,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Cook noodles",
+            "Mix noodles, tuna, and soup",
+            "Pour into baking dish",
+            "Top with cheese and bread crumbs",
+            "Bake at 350 for 30 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "fish",
+            "dinner",
+            "noodles",
+            "pasta"
+        ],
+        "notes": "",
+        "source": "Copilot/Amber"
+    },
+    {
+        "name": "Mexican Lasagna",
+        "prep_time": 60,
+        "ingredients": [
+            {
+                "name": "cooked chicken",
+                "quantity": 2,
+                "units": "cups"
+            },
+            {
+                "name": "corn tortillas",
+                "quantity": 12,
+                "units": "tortillas"
+            },
+            {
+                "name": "enchilada sauce",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 2,
+                "units": "cup"
+            },
+            {
+                "name": "onion",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "black beans",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "cream cheese",
+                "quantity": 8,
+                "units": "oz"
+            },
+            {
+                "name": "cilantro",
+                "quantity": 0.25,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Mix softened cream cheese, cilantro, 1.5 cups of cheese",
+            "Cover bottom of pan in enchilada sauce",
+            "Layer tortillas dipped in sauce, chicken, beans, onions, and cheese",
+            "Bake at 350 for 30 minutes"
+        ]
+    },
+    {
+        "name": "Taco Macaroni Skillet",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {
+                "name": "macaroni",
+                "quantity": 1.5,
+                "units": "cups"
+            },
+            {
+                "name": "taco seasoning",
+                "quantity": 1,
+                "units": "packet"
+            },
+            {
+                "name": "canned tomatoes",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "onion",
+                "quantity": 1,
+                "units": "onion"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "beans",
+                "quantity": 2,
+                "units": "cans"
+            },
+            {
+                "name": "shredded cheese",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "diced chilis",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "water",
+                "quantity": 2,
+                "units": "cup"
+            },
+            {
+                "name": "milk",
+                "quantity": 0.25,
+                "units": "cup"
+            }
+        ],
+        "instructions": [
+            "Brown beef and onion, season with taco seasoning",
+            "Add tomatoes, beans, and macaroni",
+            "Simmer covered for 20 minutes",
+            "Top with cheese"
+        ],
+        "score": 8,
+        "tags": [
+            "beef",
+            "dinner",
+            "pasta"
+        ],
+        "notes": "",
+        "source": "Kami"
+    },
+    {
+        "name": "Taco Soup",
+        "prep_time": 30,
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": 1,
+                "units": "lb"
+            },
+            {
+                "name": "taco seasoning",
+                "quantity": 1,
+                "units": "packet"
+            },
+            {
+                "name": "corn, canned or frozen",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "black beans",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "diced tomatoes",
+                "quantity": 1,
+                "units": "can"
+            },
+            {
+                "name": "salsa",
+                "quantity": 8,
+                "units": "oz"
+            },
+            {
+                "name": "onion",
+                "quantity": 1,
+                "units": "cup"
+            },
+            {
+                "name": "more beans",
+                "quantity": 1,
+                "units": "can"
+            }
+        ],
+        "instructions": [
+            "Brown beef and onion, season with taco seasoning",
+            "Add remaining ingredients, don't drain cans",
+            "Simmer for 20 minutes"
+        ],
+        "score": 8,
+        "tags": [
+            "beef",
+            "dinner",
+            "soup"
+        ],
+        "notes": "",
+        "source": "Tricia"
+    },
+    {
+        "name": "Chicken in a Sauce",
+        "prep_time": 120,
+        "ingredients": [
+            {
+                "name": "chicken breasts",
+                "quantity": 6,
+                "units": "breasts"
+            },
+            {
+                "name": "onion soup mix",
+                "quantity": 1,
+                "units": "packet"
+            },
+            {
+                "name": "water",
+                "quantity": 1.5,
+                "units": "cups"
+            },
+            {
+                "name": "vinegar",
+                "quantity": 0.25,
+                "units": "cup"
+            },
+            {
+                "name": "sugar",
+                "quantity": 0.25,
+                "units": "cups"
+            },
+            {
+                "name": "mustard",
+                "quantity": 2,
+                "units": "Tablespoons"
+            },
+            {
+                "name": "salt",
+                "quantity": 2,
+                "units": "teaspoons"
+            },
+            {
+                "name": "pepper",
+                "quantity": 1,
+                "units": "tsp"
+            },
+            {
+                "name": "ketchup",
+                "quantity": 1,
+                "units": "cups"
+            }
+        ],
+        "instructions": [
+            "Boil water, vinegar, sugar, mustard, salt, and pepper.",
+            "Pour over chicken in baking dish",
+            "Bake at 325 for 2 hours",
+            "Serve over potatoes or rice"
+        ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "potatoes",
+            "rice"
+        ],
+        "notes": "",
+        "source": "Erma"
     }
 ]
