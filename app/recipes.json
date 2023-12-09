@@ -1183,7 +1183,17 @@
         "instructions": [
             "Boil water, vinegar, sugar, mustard, salt, and pepper.",
             "Pour over chicken in baking dish",
-            "Bake at 325 for 2 hours"
+            "Bake at 325 for 2 hours",
+            "Serve over potatoes or rice"
         ],
+        "score": 8,
+        "tags": [
+            "chicken",
+            "dinner",
+            "potatoes",
+            "rice"
+        ],
+        "notes": "",
+        "source": "Erma"
     }
 ]
