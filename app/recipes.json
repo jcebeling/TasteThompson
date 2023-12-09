@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Lasagna",
+        "prep_time": 60,
+        "ingredients": {
+            "noodles": 24
+        }
+    }
+]
